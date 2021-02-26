@@ -18,6 +18,7 @@ jobs:
         - DB=MYSQL
         - REQUIRE_INSTALLER="$REQUIRE_RECIPE"
         - PHPCS_TEST=1
+        - PHPSTAN_TEST=1
         - PHPUNIT_TEST=1
         - PHPUNIT_SUITE="framework"
         - COMPOSER_INSTALL_ARG="--prefer-lowest"
